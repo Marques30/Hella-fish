@@ -8,8 +8,45 @@ body {
 }
 
 .Mission {
-	text-align: right;
-	margin:25px;
+	text-align: left;
+	margin-right: 25px;
+	width:500px;
+	border: solid;
+	border-radius: 25px;
+	background-color: white;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color:white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gold;
+}
+
+.Low{
+	text-align: left;
+	margin-right: 525px;
+	width:500px;
+	border: solid;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.High {
+	text-align: left;
+	margin-bottom: 225px;
 	width:500px;
 	border: solid;
 	border-radius: 25px;
