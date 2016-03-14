@@ -1,0 +1,17 @@
+h1{
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-color: blue;
+}
+
+.Mission {
+	text-align: right;
+	margin:25px;
+	width:500px;
+	border: solid;
+	border-radius: 25px;
+	background-color: white;
+}
