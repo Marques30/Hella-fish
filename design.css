@@ -16,6 +16,14 @@ body {
 	background-color: blue;
 }
 
+header {
+      text-align: center;
+      background-color: white;
+      background-size: cover;
+      color: white;
+      border-radius: 25px;
+}
+
 ul {
   padding: 10px;
   background: rgba(0, 0, 0, 0.5);
