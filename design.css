@@ -78,8 +78,20 @@ ul {
 }
 
 li {
-  display: inline;
+  display: inline-block;
   padding: 0px 10px 0px 10px;
   color:white;
   text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 25px;
+}
+
+li a:hover:not(.active) {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
 }
