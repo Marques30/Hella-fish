@@ -3,17 +3,17 @@ h1{
 	text-align: center;
 }
 
-body {
-	background-color: blue;
+header {
+      text-align: center;
+      background-color: blue;
+      background-size: cover;
+      color: white;
+      border-radius: 25px;
 }
 
-.Mission {
-	text-align: left;
-	margin-right: 25px;
-	width:500px;
-	border: solid;
-	border-radius: 25px;
-	background-color: white;
+@media (max-width: 500px) {
+body {
+	background-color: blue;
 }
 
 ul {
@@ -30,25 +30,48 @@ li {
   color:white;
   text-decoration: none;
 }
-
-a:hover {
-  color: gold;
 }
 
-.Low{
-	text-align: left;
-	margin-right: 525px;
-	width:500px;
-	border: solid;
-	border-radius: 25px;
-	background-color: white;
+a:hover {
+  color: white;
 }
 
 .High {
 	text-align: left;
-	margin-bottom: 225px;
+	margin: auto;
+	width:400px;
+	border: solid;
+	border-radius: 25px;
+	background-color: white;
+}
+a {
+	color: blue;
+}
+
+.Mission {
+	text-align: left;
+	margin-right: 25px;
 	width:500px;
 	border: solid;
 	border-radius: 25px;
 	background-color: white;
+}
+
+body {
+	background-color: white;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color:white;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color:white;
+  text-decoration: none;
 }
