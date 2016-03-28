@@ -95,3 +95,19 @@ li a:hover:not(.active) {
     color: white;
     border-radius: 25px;
 }
+
+.ocean {
+    background: linear-gradient(to left bottom, #97FFFF,lightblue,#00FFFF,blue,indigo,#00868B);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+.beach {
+    background: radial-gradient(lightblue, blue 20%, #00868B 25%);
+}
+.sand {
+    background: linear-gradient(to bottom,#97FFFF, #00FFFF 10%, #00868B 15%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
